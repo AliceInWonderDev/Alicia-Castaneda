@@ -110,7 +110,7 @@ input, select, textarea {
 		color: #ffffff;
 		line-height: 1.5em;
 	}
-	header h2{
+	header h2, h4{
 		color: black;
 	}
 
@@ -2240,7 +2240,7 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-image: url("../../images/rich-tervet-662093-unsplash\ \(1\).jpg");
+				background-image: url("../css/images/rich-tervet-662093-unsplash\ \(1\).jpg");
 				background-size: cover;
 				background-attachment: fixed;
 				background-position: center;
@@ -2637,9 +2637,7 @@ input, select, textarea {
 		background-color: rgba(10, 10, 10, 0.575);
 		background-blend-mode: soft-light;
 		margin: 0;
-		padding: 0;
-		filter: blur(1);
-		background-color: rgba(10, 10, 10, 0.575);
+		padding: 30px;
 	}
 
 	.backgroundAlice p{
@@ -2652,4 +2650,17 @@ input, select, textarea {
 		font-family: 'Raleway', sans-serif;
 		font-weight: 200;
 		font-size: 2em;
+	}
+
+	.npm{
+		padding-top: 20px;
+
+		margin:0px;
+		border: 0ch;
+	}
+	.firebase{
+			padding:0px;
+			margin:0px;
+			border: 0ch;
+			align-self: flex-end,
 	}
